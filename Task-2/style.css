@@ -1,0 +1,117 @@
+body {
+    width: 50%;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+    background: #39525f;
+}
+
+.lastResult {
+    color: white;
+    padding: 7px;
+}
+
+.guesses {
+    color: white;
+    padding: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #12aab4;
+}
+
+#guessField {
+    color: #000;
+    width: 550px;
+    height: 100px;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: none;
+    border-radius: 10px;
+    border: none;
+    margin-top: 25px;
+    font-size: 45px;
+    border: 5px solid white;
+    text-align: center;
+}
+
+#guessField:focus{
+    
+  outline: none;
+  border: 1px solid rgb(9, 8, 10);
+  background-color: rgb(219, 204, 204);
+}
+
+#guess {
+    font-size: 55px;
+    margin-top: 120px;
+
+}
+
+#wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 740px;
+    height: 410px;
+    background-color: #0288D1;
+    color: #fff;
+    font-size: 25px;
+}
+
+h1 {
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+    width: 745px;
+  height: 50px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  font-family: 'Noto Sans', sans-serif;
+}
+h2 {
+    background-color: white;
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    text-align: center;
+    width: 550px;
+    margin-left : 90px;
+    border-radius:12px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.number{
+
+  width: 111%;
+  height: 50%;
+  display: block;
+  background: #4488d1;
+  border-radius:10px;
+  box-shadow: 10px 30px 10px 0px black;
+
+}
+#submitguess {
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    width: 250px;
+    height: 80px;
+    margin: 50px 5px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #submitguess :hover {
+    background: #2079B0;
+    text-decoration: none;
+    cursor: pointer;
+  }
